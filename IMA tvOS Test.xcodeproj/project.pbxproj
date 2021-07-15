@@ -3,25 +3,25 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		2367A5EA269F1F2D00FA694D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2367A5E9269F1F2D00FA694D /* AppDelegate.swift */; };
 		2367A5EC269F1F2D00FA694D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2367A5EB269F1F2D00FA694D /* ViewController.swift */; };
-		2367A5EF269F1F2D00FA694D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2367A5ED269F1F2D00FA694D /* Main.storyboard */; };
 		2367A5F1269F1F2E00FA694D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2367A5F0269F1F2E00FA694D /* Assets.xcassets */; };
-		2367A5F4269F1F2E00FA694D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2367A5F2269F1F2E00FA694D /* LaunchScreen.storyboard */; };
+		71011BBC71C311AD212D030B /* Pods_IMA_tvOS_Test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4B342881795D294A5B659B8 /* Pods_IMA_tvOS_Test.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2367A5E6269F1F2D00FA694D /* IMA tvOS Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IMA tvOS Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2367A5E9269F1F2D00FA694D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2367A5EB269F1F2D00FA694D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		2367A5EE269F1F2D00FA694D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2367A5F0269F1F2E00FA694D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		2367A5F3269F1F2E00FA694D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2367A5F5269F1F2E00FA694D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B663238BE7816CF86C03FE6 /* Pods-IMA tvOS Test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IMA tvOS Test.release.xcconfig"; path = "Target Support Files/Pods-IMA tvOS Test/Pods-IMA tvOS Test.release.xcconfig"; sourceTree = "<group>"; };
+		E637A81BC254987A9B0058FF /* Pods-IMA tvOS Test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IMA tvOS Test.debug.xcconfig"; path = "Target Support Files/Pods-IMA tvOS Test/Pods-IMA tvOS Test.debug.xcconfig"; sourceTree = "<group>"; };
+		F4B342881795D294A5B659B8 /* Pods_IMA_tvOS_Test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IMA_tvOS_Test.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +29,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71011BBC71C311AD212D030B /* Pods_IMA_tvOS_Test.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +41,8 @@
 			children = (
 				2367A5E8269F1F2D00FA694D /* IMA tvOS Test */,
 				2367A5E7269F1F2D00FA694D /* Products */,
+				7B0C445B5812420BFF336DC5 /* Pods */,
+				5DDA18DACDD9E1540C199B5D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,12 +59,27 @@
 			children = (
 				2367A5E9269F1F2D00FA694D /* AppDelegate.swift */,
 				2367A5EB269F1F2D00FA694D /* ViewController.swift */,
-				2367A5ED269F1F2D00FA694D /* Main.storyboard */,
 				2367A5F0269F1F2E00FA694D /* Assets.xcassets */,
-				2367A5F2269F1F2E00FA694D /* LaunchScreen.storyboard */,
 				2367A5F5269F1F2E00FA694D /* Info.plist */,
 			);
 			path = "IMA tvOS Test";
+			sourceTree = "<group>";
+		};
+		5DDA18DACDD9E1540C199B5D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F4B342881795D294A5B659B8 /* Pods_IMA_tvOS_Test.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7B0C445B5812420BFF336DC5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E637A81BC254987A9B0058FF /* Pods-IMA tvOS Test.debug.xcconfig */,
+				5B663238BE7816CF86C03FE6 /* Pods-IMA tvOS Test.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +89,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2367A5F8269F1F2E00FA694D /* Build configuration list for PBXNativeTarget "IMA tvOS Test" */;
 			buildPhases = (
+				7E3AB6121707A5C32F93782D /* [CP] Check Pods Manifest.lock */,
 				2367A5E2269F1F2D00FA694D /* Sources */,
 				2367A5E3269F1F2D00FA694D /* Frameworks */,
 				2367A5E4269F1F2D00FA694D /* Resources */,
+				21FEE1CE36F7CDC31A2249A9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -121,13 +141,53 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2367A5F4269F1F2E00FA694D /* LaunchScreen.storyboard in Resources */,
 				2367A5F1269F1F2E00FA694D /* Assets.xcassets in Resources */,
-				2367A5EF269F1F2D00FA694D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		21FEE1CE36F7CDC31A2249A9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IMA tvOS Test/Pods-IMA tvOS Test-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IMA tvOS Test/Pods-IMA tvOS Test-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-IMA tvOS Test/Pods-IMA tvOS Test-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7E3AB6121707A5C32F93782D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IMA tvOS Test-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2367A5E2269F1F2D00FA694D /* Sources */ = {
@@ -140,25 +200,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		2367A5ED269F1F2D00FA694D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2367A5EE269F1F2D00FA694D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		2367A5F2269F1F2E00FA694D /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2367A5F3269F1F2E00FA694D /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		2367A5F6269F1F2E00FA694D /* Debug */ = {
@@ -279,6 +320,7 @@
 		};
 		2367A5F9269F1F2E00FA694D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E637A81BC254987A9B0058FF /* Pods-IMA tvOS Test.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -298,6 +340,7 @@
 		};
 		2367A5FA269F1F2E00FA694D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B663238BE7816CF86C03FE6 /* Pods-IMA tvOS Test.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

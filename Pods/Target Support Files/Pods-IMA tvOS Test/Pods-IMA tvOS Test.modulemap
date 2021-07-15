@@ -1,0 +1,6 @@
+framework module Pods_IMA_tvOS_Test {
+  umbrella header "Pods-IMA tvOS Test-umbrella.h"
+
+  export *
+  module * { export * }
+}
